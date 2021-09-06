@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 26" width="32" height="26">
+	<title>Footer</title>
+	<defs>
+		<image  width="32" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAMAAADhRa4NAAAAAXNSR0IB2cksfwAAApdQTFRF////aL/VaL/VaL/VaL/VaL/Vpdnm4/X58fv9aL/V0vD2xOz2ver1wuz2u+r1odjoUKHAZK/LrODuwev2uun1VqbESabER6TCUKbEvur2t+j1Y7XOWLTNW7bPVbLMvOr1tej0arvSXbjPYbzRZL3Ss+f0bb7TYr3SZ8DUasPWPKrFO6nEOqTBN6C+NJm6Ppy9i8zguej0sebzb8HVZcDUa8TXb8fZccjaX7vRVLLMbLjRtuj0rubzb8LWZ8LWbsfZc8rbdczdYbzSdcTYtuTvs+j0q+XzbsLXZ8PXbcjan93p4PX71fL5tOj0r+bzpuPya8HVY8HVacbYhtLjqOTyn+HxbcLWXb7TYsLWbMbZoOHxlt7vgcrdVLjQWLzSUrjQTLLOZcDYbsXbbcLabMDZhNDll9/wjNvupN7tUbXPTrbPULjQSLDMPqjFOqPCN57ANJm8Kouyd8nhgNfsitruoNnoSLDNRbDLRbDMQ67LQavJPqjGOqTEZ7nVg9jsddTqjN3urubycMXaTLLNO6nGOqfFOKXENaLCVLLNidfqe9brbdHpdNTqluLxqer1su73ouf0ctPqAAAAf9fsctLqcdLqmN3uj9zuAAAAAAAACwsLDQ0NZrrQi9HjseXxuun0v+r0w+v0xuz0yOz0yez0yuz0ZrrQDw8PDAwMCwsLDAwMDAwMHjA0YLDEZ73TITM4DQ0NDQ0NDAwMAAAACQkJDg4OCwsLDQ0NDQ0NDg4ODQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDg4ODw8PCAgIDQ0NDQ0NDAwMDQ0NDAwMDg4ODQ0NDAwMDg4ODg4ODg4ODg4OERERDg4OCgoKEBAQDg4OCgoKDw8PCgoKDAwMDg4OEREREBAQGFmm6gAAAN10Uk5TAAaE5P+H////6v////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8A//////8BAgMGi////////////44FAwcNEx6a6hwRCwYDBAgOFRsfISIjJCUmIB4ZAwUPFBYYGRwdHBQRDgsCAwQFBgcICAcFBALaLtC+AAAB20lEQVR4nGNgAAJGJmYWDMDMxMgAA6xs7BwYgJ2NFa6Ak4ubBwNwc3HCFbBgkQeqYEEo4OUDAX4BQSE+BOBFUiAsAgKiYuISIgggjKRAUgoEpGVk5aQQQBJJgbwCCCgqKasoIIA8kgIRVRBQU9fQ1NLW0dXTNwBxRZAUGBqBgLGJqZm5mamJhaUViGuIpMDaBgRs7ewdHB3s7ZycXUBcayQFrm4g4O7h6eUNAj6+IK4rkgI/fxAICAwK9kcAPyQFIaEgEBYeERmKACFICqKiQSAmNi4+ITEpOSUVzI1CUpCWDgIZmVnZObl5+QWFRSBuGpKC9GIQKCktK68or6yqrqkFcdORFNTVg0FDY1NzS2tbe0cniFeHpKCrGwJ6evv6gWDCRBCnC6JgEhCwTJ4yFQNMmcwCkgMr4Jw2PR0DTJ/GCVYwY+as2XPmzpu/YOGixUuWgsGSxYsWLpg/b+6y5StmzmBYsXLV6jVr12Gm6nVr12/YuGkzw5at27bv2Llr9569e/ft27cfCIDU3j17dh84eGj1qpUrGGYcPrJ149ENx46fOLnj1OmDBw+ePn1mx8kTx8+eO39h5ZaLM0COnDHz0uUrVzetvHZ9KxjcWHlz9q3bs+7MmAGUBABkfuK2HDsNWAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="SubFooter">
+			<use id="Twitter Icons" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

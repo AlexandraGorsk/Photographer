@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 26" width="32" height="26">
+	<title>Sidebar</title>
+	<defs>
+		<image  width="32" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAYAAADWm14/AAAAAXNSR0IB2cksfwAABLJJREFUeJytlntQlGUUxsnlstwhzcm4WGIX/tEaK7KAFCsiHMUSGv7RymqGpuxCTU2DGlOMK4qYUkAmOWlWXrKZsEIgCjITEwLiugvrsgvL3liE5ba7+HTOxzrux1Lzzcg385t3vvOe85znvXwLXgC83GncEOtLfEToCMwROpem78x+XrMY2KnZtxWjTeWYVNcSv90gtYIWa7K2FAPGK5UKWI5lwFyWTDxxgyQLWqzJ2lIMYPCbzDlqft0Ea7K2NANfPwvzocfnFNaUbuAr2v6Dj4ng56p9DM5BNSaUlRipUcB6/DmPvP+CNSUbsBxJh6l0jQiHsQUOUysZUMI5rMXVcSvshjbYzn1C+Rke+TNhTekGDpOBT5NEaH/Ihb6qEJYLR2DrPAuHoQVOixJTo2ZMdNfBeupVjxp3WFOyAXPZRhiLVovo3pOArvwEtCvi0VWaCd2ZPIx0VEwbGbpMu9EO6+k3PequwZrSDRx6Bsb9q0SMNX1H212KodNvQ1eYCNUuMlKSCdPvn8Mx0AynuRP2gXYMHtviUcuwpmQDpoNPw7DvURFTw32YshnhsPbSj8t5DJ35ALqCRHTuXoOBqv1w6JsEExOaizAWp3rUs6Z0AyVpMBQkiBhT1VKTZtryNuFLcFq1GKX7oN+7CspdSTCfOyzMOy3dGK4p8qhnTckGjEXrMKB4RERHYTo6i5+HvuJjTGr/ou3+B44hHR3LF+hXJKAzPwW2tkrY+5tgNypJY72onjUlGzAUrIU+9yERvdvjoM55EB05D0NZ/CJsrdysGXaLGtZv34V2Rxx0J3IxqSFz+lZYy/NF9awp2cBAXjL63lshQp+7mr7ld6BXrIUq+z6oil7CaPuvsOuaaawVarrejydj1bBr/4atpVpUz/OSDfRvo+/+9WUixlpq4DBrMd7dQKvJhPK15eg7mU8rbsRkfwcMJVnQbF0GU1UZxRrozlwU1bOmZAO6txKh2RIrwjGgImE6X2pmOvqhEOvZuQm2pmr6KhphOlEgxLRl2zChqse48oKonjUlG+jNWgl1ZowI89kv6W9APax1p9Cds1GIqV6Jh7liOm48eQCXN8VCnbcZI5cqcKX+R1E9a0o2oHnhAfRsWCyi/qlI1CVH4M+USLSvixZiyrTr8YbUKHRTrJXm/ngyEucpz72eNWc1MPMRDLy8Ej0ZMehJXzI3kBZrsrZnR08Dxr4dKXRm90P7xr10gZbfGKTBWqzJ2rP1vImYFxgYKAsODvatX3/PblV2Egylm2E+mgXL8WwMfr8dg+V5sP6UD+vPe/4fyuFcruFa1mAt1iTtvaGhoT5BQUEy7in05hdq7kdjMDF/xW03R/+Sevdnl9JijXP1XzFrsWZc5PxIWmQ4EUi9fMmAzMvf3987JCRETiZCaOIWIoLeF9N4B7GEiCGWurjTjbtm4D631FUX49K4nYgm3UW8SF6sa9Ey4QhoW2RyudyHjbA7ItTldAElLaTxVhoXuczxKqJY0A1+j6Icnotw5XLNQspfQISHTD+B3JgXHR4ePs91/J73gRJlAQEB3mFhYWzKl7eLCynmR2blbHQ2aF7uWpkf3yeK+VAjb75fpHWtoajpv2o63XZO2j+6AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Sidebar">
+		<g id="RSS">
+			<use id="RSSIcon" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
