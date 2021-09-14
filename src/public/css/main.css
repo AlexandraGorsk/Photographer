@@ -20,15 +20,16 @@ header {
   background-color: #3f3e3e; }
   header .logo {
     width: 65%;
-    background-image: url(../../images/fulllogo.png);
-    height: 3.625rem;
-    background-size: 100%; }
+    background-image: url(../images/fulllogo.png);
+    background-size: auto;
+    background-repeat: round; }
   header .search {
     display: flex;
     justify-content: space-between;
     width: 35%;
     padding: 0.625rem 1.25rem;
-    align-items: center; }
+    align-items: center;
+    gap: 1rem; }
     header .search img {
       position: absolute;
       width: 1.25rem;
@@ -40,11 +41,12 @@ header {
       font-size: 0.875rem;
       text-transform: uppercase; }
     header .search input[type="text"] {
-      padding: 0.43rem 0.625rem;
+      padding: 0.6rem 0.625rem;
       font-style: italic;
       background-color: #616060;
       color: rgba(255, 255, 255, 0.9);
-      max-width: 15rem; }
+      width: 100%;
+      border: none; }
     header .search input::placeholder {
       font-style: italic;
       color: rgba(255, 255, 255, 0.9); }
@@ -69,6 +71,7 @@ main {
       width: 12.5rem;
       height: 12.5rem; }
     main .main .breadcrump ul {
+      text-align: center;
       list-style: none; }
       main .main .breadcrump ul li {
         display: inline; }
@@ -121,7 +124,7 @@ main {
       main .infoblock .title h2 {
         font-size: 1.375rem; }
     main .infoblock .divider {
-      background-image: url(../../images/divider.svg);
+      background-image: url(../images/divider.svg);
       height: 0.06rem; }
     main .infoblock .banners {
       display: flex;
@@ -130,8 +133,8 @@ main {
       justify-content: space-between;
       padding: 1.25rem; }
       main .infoblock .banners img {
-        height: 9.375rem;
-        width: 9.5625rem;
+        height: auto;
+        width: 46%;
         border: 0.43rem solid #b8b5b5; }
       main .infoblock .banners p {
         color: #444444;
@@ -234,8 +237,8 @@ main {
     main .infoblock .nikon {
       padding: 1.25rem; }
     main .infoblock .nikon img {
-      width: 20rem;
-      height: 20rem; }
+      width: 100%;
+      height: auto; }
 
 footer {
   background-color: #191919;
@@ -309,7 +312,7 @@ footer > div {
 
 @media (max-width: 768px) {
   html {
-    font-size: 12px; }
+    font-size: 11px; }
   header,
   main,
   footer,
@@ -322,10 +325,12 @@ footer > div {
 @media (max-width: 375px) {
   .logo {
     background-size: contain;
-    background-image: url(../../images/logoformobile); }
+    background-image: url(../images/logoformobile); }
   .main img {
     display: none; }
   input {
     width: 1rem; }
-  .nikon {
-    display: none; } }
+  .banners {
+    gap: 0.5rem; }
+  footer {
+    flex-direction: column; } }

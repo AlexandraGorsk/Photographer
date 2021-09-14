@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+$colorforp: #444444;
 h1,
 h2 {
     text-transform: capitalize;
@@ -20,9 +21,9 @@ header {
     background-color: rgb(63, 62, 62);
     .logo {
         width: 65%;
-        background-image: url(../../images/fulllogo.png);
-        height: 3.625rem;
-        background-size: 100%;
+        background-image: url(../images/fulllogo.png);
+        background-size: auto;
+        background-repeat: round;
     }
     .search {
         display: flex;
@@ -30,6 +31,7 @@ header {
         width: 35%;
         padding: 0.625rem 1.25rem;
         align-items: center;
+        gap: 1rem;
         img {
             position: absolute;
             width: 1.25rem;
@@ -43,11 +45,12 @@ header {
             text-transform: uppercase;
         }
         input[type="text"] {
-            padding: 0.43rem 0.625rem;
+            padding: 0.6rem 0.625rem;
             font-style: italic;
             background-color: rgb(97, 96, 96);
             color: rgba(255, 255, 255, 0.9);
-            max-width: 15rem;
+            width: 100%;
+            border: none;
         }
         input::placeholder {
             font-style: italic;
@@ -68,7 +71,7 @@ main {
         border-right: 1px solid rgb(179, 175, 175);
         padding: 1.875rem;
         padding-top: 2.81rem;
-        img {
+        .mainimg img {
             border: 0.43rem solid rgba(178, 178, 180, 0.4);
             float: left;
             margin-right: 1.56rem;
@@ -101,7 +104,7 @@ main {
             margin: 1rem 0;
         }
         p {
-            color: #444444;
+            color: $colorforp;
             line-height: 1.25rem;
             font-size: 0.8125rem;
         }
@@ -113,7 +116,7 @@ main {
         }
         ul li,
         ol li {
-            color: #444444;
+            color: $colorforp;
             line-height: 1.25rem;
             font-size: 0.8125rem;
         }
@@ -121,7 +124,7 @@ main {
             padding: 1.25rem 0 1.25rem 1.875rem;
         }
         pre {
-            color: #444444;
+            color: $colorforp;
             line-height: 1.25rem;
             font-size: 0.8125rem;
             margin: 1.25rem 0;
@@ -151,7 +154,7 @@ main {
             }
         }
         .divider {
-            background-image: url(../../images/divider.svg);
+            background-image: url(../images/divider.svg);
             height: 0.06rem;
         }
         .banners {
@@ -161,12 +164,12 @@ main {
             justify-content: space-between;
             padding: 1.25rem;
             img {
-                height: 9.375rem;
-                width: 9.5625rem;
+                height: auto;
+                width: 46%;
                 border: 0.43rem solid rgb(184, 181, 181);
             }
             p {
-                color: #444444;
+                color: $colorforp;
                 font-size: 0.625rem;
                 margin: auto;
             }
@@ -178,7 +181,7 @@ main {
             }
         }
         .tabs {
-            color: #444444;
+            color: $colorforp;
             max-width: 20rem;
             border: 1px solid rgb(179, 175, 175);
         }
@@ -190,10 +193,17 @@ main {
             border: 1px solid #e0e0e0;
             font-size: 1rem;
         }
-        #tab-btn-1:checked ~ #content-1,
-        #tab-btn-2:checked ~ #content-2,
-        #tab-btn-3:checked ~ #content-3,
-        #tab-btn-4:checked ~ #content-4 {
+        #tab-btn-1:checked ~ .content-1,
+        #tab-btn-2:checked ~ .content-2,
+        #tab-btn-3:checked ~ .content-3,
+        #tab-btn-4:checked ~ .content-4 {
+            display: block;
+            background-color: #fff;
+        }
+        #tabbtn-1:checked ~ .content-1,
+        #tabbtn-2:checked ~ .content-2,
+        #tabbtn-3:checked ~ .content-3,
+        #tabbtn-4:checked ~ .content-4 {
             display: block;
             background-color: #fff;
         }
@@ -216,7 +226,7 @@ main {
             background-color: #fff;
             border-bottom: 1px solid #fff;
         }
-        #content-1 ul {
+        .content-1 ul {
             padding: 0.43rem;
             list-style-type: none;
             li {
@@ -224,12 +234,12 @@ main {
                 border-bottom: 1px solid rgb(163, 161, 161);
                 font-size: 0.75rem;
                 a {
-                    color: #444444;
+                    color: $colorforp;
                     text-decoration: none;
                 }
             }
         }
-        #content-1 ul li:last-child {
+        .content-1 ul li:last-child {
             border-bottom: none;
         }
         .community {
@@ -237,67 +247,13 @@ main {
             h2 {
                 margin-bottom: 1.25rem;
             }
-            .tabs2 {
-                color: #444444;
-                max-width: 20rem;
-                border: 1px solid rgb(179, 175, 175);
-            }
-            .tabs2 > input[type="radio"] {
-                display: none;
-            }
-            .tabs2 > div {
-                display: none;
-                border: 1px solid #e0e0e0;
-                font-size: 1rem;
-            }
-            #butt-1:checked ~ #content1,
-            #butt-2:checked ~ #content2,
-            #butt-3:checked ~ #content3,
-            #butt-4:checked ~ #content4 {
-                display: block;
-                background-color: #fff;
-            }
-            .tabs2 > label {
-                display: inline-block;
-                text-align: center;
-                vertical-align: middle;
-                background-color: rgb(236, 236, 234);
-                padding: 0.5rem;
-                font-size: 0.75rem;
-                cursor: pointer;
-                position: relative;
-            }
-            .tabs2 > label:not(:first-of-type) {
-                border-left: none;
-            }
-            .tabs2 > input[type="radio"]:checked + label {
-                font-weight: 800;
-                background-color: #fff;
-                border-bottom: 1px solid #fff;
-            }
-            #content1 ul {
-                padding: 0.43rem;
-                list-style-type: none;
-                li {
-                    padding: 0.625rem 0.625rem 0.625rem 0.125rem;
-                    border-bottom: 1px solid rgb(163, 161, 161);
-                    font-size: 0.75rem;
-                    a {
-                        color: #444444;
-                        text-decoration: none;
-                    }
-                }
-            }
-            #content1 ul li:last-child {
-                border-bottom: none;
-            }
         }
         .nikon {
             padding: 1.25rem;
         }
         .nikon img {
-            width: 20rem;
-            height: 20rem;
+            width: 100%;
+            height: auto;
         }
     }
 }
@@ -390,7 +346,7 @@ footer > div {
 @media (max-width: 768px) 
 {
     html {
-font-size: 12px;
+font-size: 11px;
     }
     header,
     main,
@@ -407,15 +363,31 @@ font-size: 12px;
 {
     .logo {
         background-size: contain;
-        background-image: url(../../images/logoformobile);
+        background-image: url(../images/logoformobile);
     }
-.main img {
-    display: none;
-}
 input {
     width: 1rem;
 }
-
-.nikon {display: none;}
-
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.mainimg {
+    order: 2;
+    img {
+        margin-bottom: 0rem;
+    }
+}
+.breadcrump {
+    order: 1;
+    ul {
+        margin-bottom: 0.25rem;
+    }
+}
+.infoblock .banners {
+    gap: 0.5rem;
+}
+footer {
+    flex-direction: column;
+}
 }

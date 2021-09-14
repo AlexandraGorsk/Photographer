@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss src/scss/main.scss   src/public/css/main.css",
+    "build-css": "node-sass --include-path scss src/scss/main.scss   src/css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "livereload":"gulp",
     "dev":"concurrently --kill-others \"npm run livereload\" \"npm run watch-css\""
