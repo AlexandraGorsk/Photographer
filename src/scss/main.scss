@@ -354,16 +354,35 @@ font-size: 11px;
     .copyright {
         width: 100%;
     }
-    .banners img {
+    .main .infoblock .banners img {
         width: 8rem;
         height: 8rem;
     }
 }
+@media (max-width: 700px) {
+main {
+    flex-direction: column;
+    .main,.infoblock {
+        width: 100%;
+    }
+    h2 {
+        text-align: center;
+    }
+    .infoblock { 
+    .tabs {
+        max-width: 100%;
+    }
+    .banners {
+        row-gap: 20px;
+    }
+}
+}
+}
 @media (max-width: 375px) 
 {
-    .logo {
+   header .logo {
         background-size: contain;
-        background-image: url(../images/logoformobile);
+        background-image: url(../images/logoformobile.png);
     }
 input {
     width: 1rem;
@@ -372,10 +391,10 @@ input {
     display: flex;
     flex-direction: column;
 }
-.mainimg {
+main .main .mainimg {
     order: 2;
     img {
-        margin-bottom: 0rem;
+        margin-bottom: 0;
     }
 }
 .breadcrump {
@@ -384,7 +403,7 @@ input {
         margin-bottom: 0.25rem;
     }
 }
-.infoblock .banners {
+main .infoblock .banners {
     gap: 0.5rem;
 }
 footer {
