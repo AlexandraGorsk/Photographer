@@ -40,7 +40,7 @@ header {
       color: rgba(255, 255, 255, 0.7);
       font-size: 0.875rem;
       text-transform: uppercase; }
-    header .search input[type="text"] {
+    header .search input[type='text'] {
       padding: 0.6rem 0.625rem;
       font-style: italic;
       background-color: #616060;
@@ -75,10 +75,10 @@ main {
       main .main .breadcrump ul li {
         display: inline; }
       main .main .breadcrump ul li:before {
-        content: "/";
+        content: '/';
         margin-right: 0.3125rem; }
       main .main .breadcrump ul li:first-child:before {
-        content: ""; }
+        content: ''; }
       main .main .breadcrump ul a {
         color: #2884b5; }
       main .main .breadcrump ul a:hover {
@@ -112,7 +112,7 @@ main {
     main .main .star ul li {
       list-style-type: none; }
     main .main .star ul li:before {
-      content: "* "; }
+      content: '* '; }
   main .infoblock {
     width: 35%;
     background-color: #ececea; }
@@ -147,7 +147,7 @@ main {
       color: #444444;
       max-width: 20rem;
       border: 1px solid #b3afaf; }
-    main .infoblock .tabs > input[type="radio"] {
+    main .infoblock .tabs > input[type='radio'] {
       display: none; }
     main .infoblock .tabs > div {
       display: none;
@@ -176,7 +176,7 @@ main {
       position: relative; }
     main .infoblock .tabs > label:not(:first-of-type) {
       border-left: none; }
-    main .infoblock .tabs > input[type="radio"]:checked + label {
+    main .infoblock .tabs > input[type='radio']:checked + label {
       font-weight: 800;
       background-color: #fff;
       border-bottom: 1px solid #fff; }
@@ -287,7 +287,8 @@ footer > div {
 @media (max-width: 700px) {
   main {
     flex-direction: column; }
-    main .main, main .infoblock {
+    main .main,
+    main .infoblock {
       width: 100%; }
     main h2 {
       text-align: center; }
