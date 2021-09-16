@@ -5,7 +5,9 @@
 	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 }
-$colorforp: #444444;
+:root{
+	--primary-color: #444444;
+}
 h1,
 h2 {
 	text-transform: capitalize;
@@ -108,7 +110,7 @@ main {
 			margin: 1rem 0;
 		}
 		p {
-			color: $colorforp;
+			color: var(--primary-color);
 			line-height: 1.25rem;
 			font-size: 0.8125rem;
 		}
@@ -120,7 +122,7 @@ main {
 		}
 		ul li,
 		ol li {
-			color: $colorforp;
+			color: var(--primary-color);
 			line-height: 1.25rem;
 			font-size: 0.8125rem;
 		}
@@ -128,7 +130,7 @@ main {
 			padding: 1.25rem 0 1.25rem 1.875rem;
 		}
 		pre {
-			color: $colorforp;
+			color: var(--primary-color);
 			line-height: 1.25rem;
 			font-size: 0.8125rem;
 			margin: 1.25rem 0;
@@ -173,7 +175,7 @@ main {
 				border: 0.43rem solid rgb(184, 181, 181);
 			}
 			p {
-				color: $colorforp;
+				color: var(--primary-color);
 				font-size: 0.625rem;
 				margin: auto;
 			}
@@ -185,7 +187,7 @@ main {
 			}
 		}
 		.tabs {
-			color: $colorforp;
+			color: var(--primary-color);
 			max-width: 20rem;
 			border: 1px solid rgb(179, 175, 175);
 		}
@@ -238,7 +240,7 @@ main {
 				border-bottom: 1px solid rgb(163, 161, 161);
 				font-size: 0.75rem;
 				a {
-					color: $colorforp;
+					color: var(--primary-color);
 					text-decoration: none;
 				}
 			}

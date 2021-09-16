@@ -5,6 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none; }
 
+:root {
+  --primary-color: #444444; }
+
 h1,
 h2 {
   text-transform: capitalize;
@@ -86,7 +89,7 @@ main {
     main .main h1 {
       margin: 1rem 0; }
     main .main p {
-      color: #444444;
+      color: var(--primary-color);
       line-height: 1.25rem;
       font-size: 0.8125rem; }
     main .main .indent {
@@ -95,13 +98,13 @@ main {
       list-style: none; }
     main .main ul li,
     main .main ol li {
-      color: #444444;
+      color: var(--primary-color);
       line-height: 1.25rem;
       font-size: 0.8125rem; }
     main .main ol {
       padding: 1.25rem 0 1.25rem 1.875rem; }
     main .main pre {
-      color: #444444;
+      color: var(--primary-color);
       line-height: 1.25rem;
       font-size: 0.8125rem;
       margin: 1.25rem 0; }
@@ -136,7 +139,7 @@ main {
         width: 46%;
         border: 0.43rem solid #b8b5b5; }
       main .infoblock .banners p {
-        color: #444444;
+        color: var(--primary-color);
         font-size: 0.625rem;
         margin: auto; }
     main .infoblock .navigation {
@@ -144,7 +147,7 @@ main {
       main .infoblock .navigation h2 {
         padding-bottom: 1.25rem; }
     main .infoblock .tabs {
-      color: #444444;
+      color: var(--primary-color);
       max-width: 20rem;
       border: 1px solid #b3afaf; }
     main .infoblock .tabs > input[type='radio'] {
@@ -188,7 +191,7 @@ main {
         border-bottom: 1px solid #a3a1a1;
         font-size: 0.75rem; }
         main .infoblock .content-1 ul li a {
-          color: #444444;
+          color: var(--primary-color);
           text-decoration: none; }
     main .infoblock .content-1 ul li:last-child {
       border-bottom: none; }
